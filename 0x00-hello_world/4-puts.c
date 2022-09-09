@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- *Description: main - entry or start point
+/**
+ *
+ *Description: main - prints out the string.
  *
  *Return: 0 if successful
  */
