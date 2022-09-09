@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- *
  * Description: main - prints out the string.
- *
  * Return: 0 if successful
  */
 int main(void)
