@@ -6,7 +6,7 @@
  * Description: using main function
  * Return: always successful
  */
-int main (void)
+int main(void)
 {
 	int c;
 
