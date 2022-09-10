@@ -4,7 +4,7 @@
  * main - alphabet in lowercase
  *
  * Description: using the main function
- * Retuern: always successful
+ * Return: always successful
  */
 int main(void)
 {
