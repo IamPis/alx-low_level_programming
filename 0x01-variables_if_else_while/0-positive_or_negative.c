@@ -8,7 +8,7 @@
  * Description: using the main function
  * Return: Always when successful
  */
-int main (void)
+int main(void)
 {
 int n;
 
