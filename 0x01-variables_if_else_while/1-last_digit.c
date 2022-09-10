@@ -1,18 +1,16 @@
-#include <stdlib.h>                                                                                                       
-#include <time.h>                                                                                                         
-#include <stdio.h>                                                                                                        
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h> 
 
-/**                                                                                                                       
+/**
+ *main - prints number if positive, negative or zero
  *
- *main - prints number if positive, negative or zero                                                                     
- *                                                                                                                       
+ * Description: using the main function
+ * Return: Always when successful
  *
- * Description: using the main function                                                                                   
- * Return: Always when successful                                                                                         
- *
- */                                                                                                                       
+ */
 
-int main(void)                                                                                                            
+int main(void)
 
 {
 int n;
@@ -20,7 +18,7 @@ char last[] = "Last digit of";
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%s %d is %d and is", last, n, n % 10);
+printf("%s %d is %d and is ", last, n, n % 10);
 if (n % 10 > 5)
 {
 printf("greater than 5\n");
