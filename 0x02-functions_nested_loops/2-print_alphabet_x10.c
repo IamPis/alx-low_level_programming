@@ -3,11 +3,10 @@
 /**
  * print_alphabet_x10 - prints 10 times the alphabet
  *
- * 
  * Return: always successful
  */
 
- void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 
 	int n, co;
