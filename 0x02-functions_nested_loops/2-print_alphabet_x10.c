@@ -11,7 +11,7 @@
 	int n, co;
 	co = 0;
 
-	while (c < 10)
+	while (co < 10)
 	{
 		for (n = 'a'; n <= 'z'; n++)
 		{
