@@ -23,17 +23,16 @@ void times_table(void)
 
 			d = (rw * col);
 
-			if (d <= 9)
+			if ((d / 10) > 0)
 			{
 
-				_putchar(' ');
+				_putchar((d / 10) + '0');
 			}
 
 			else
 			{
 
-				_putchar((d / 10) + '0');
-				_putchar((d % 10) + '0');
+				_putchar(' ');
 			}
 			_putchar('\n');
 		}
