@@ -19,16 +19,12 @@ void rev_string(char *s)
 
 		c++;
 	}
-	
 	for (k = 1; k < c; k++)
 	{
-		
 		a++;
 	}
-	
 	for (i = 0; i < (c / 2); i++)
 	{
-		
 		aux = s[i];
 		s[i] = *a;
 		*a = aux;
